@@ -1,0 +1,301 @@
+version: 1.1
+file_type: data-source-administration
+name: Windows Data Sources
+systems:
+  - applicable_to: servers
+    platform:
+      - Windows
+  - applicable_to: Workstations
+    platform:
+      - Windows
+data_sources:
+  - data_source_name: Active Directory Credential Request
+    data_source:
+      - applicable_to:
+          - servers
+          - Workstations
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - WEF
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Active Directory Object Access
+    data_source:
+      - applicable_to:
+          - servers
+          - Workstations
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - WEF
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Active Directory Object Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - WEF
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Drive Access
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - WEF
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Drive Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products: []
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Drive Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - WEF
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: File Access
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - WEF
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Group Enumeration
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Group Metadata
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 4
+  - data_source_name: Group Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Logon Session Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Logon Session Metadata
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: Network Connection Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: User Account Authentication
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: User Account Creation
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: User Account Deletion
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: User Account Metadata
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+  - data_source_name: User Account Modification
+    data_source:
+      - applicable_to:
+          - all
+        date_registered: 2022-01-21T00:00:00.000Z
+        date_connected: 2022-01-01T00:00:00.000Z
+        products:
+          - wef
+        available_for_data_analytics: true
+        comment: ''
+        data_quality:
+          device_completeness: 4
+          data_field_completeness: 1
+          timeliness: 4
+          consistency: 3
+          retention: 5
+notes: These are the data sources available in my org for windows logs
