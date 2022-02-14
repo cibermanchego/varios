@@ -1,5 +1,16 @@
 #!/usr/bin/sh
 
+# Download plugins from Tenable site
+
+curl https://plugins.nessus.org/v2/nessus.php?f=all-2.0.tar.gz&u=3f09asdf0934… -o /data_diode/plugins/all-2.0.tar.gz
+
+sleep 3
+
+curl https://plugins.nessus.org/v2/nessus.php?f=SecurityCenterFeed48.tar.gz&u=3f09assdf90rg… -o /data_diode/plugins/SecurityCenterFeed48.tar.gz
+
+sleep 3
+
+curl https://plugins.nessus.org/v2/nessus.php?f=sc-plugins-diff.tar.gz&u=3f09assdf90rg… -o /data_diode/plugins/sc-plugins-diff.tar.gz
 # Download plugins from your web repository to Tenable.sc server
 curl http://www.repoplace.local/plugins/all-2.0.tar.gz -o /plugins/all-2.0.tar.gz
 
