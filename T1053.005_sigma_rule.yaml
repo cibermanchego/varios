@@ -1,0 +1,30 @@
+title: Scheduled Task Start from Public Directory
+description: Adversaries often create Scheduled Task with sample in Public
+Directory
+author: Kaspersky
+status: stable
+tags:
+    - attack.Execution
+    - attack.Persistance
+    - attack.Privilege Escalation
+    - attack.T1053.005
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection:
+     Image|contains:
+        - '\schtasks.exe'
+     Commandline|contains:
+        - '\ProgramData\'
+        - '\Users\'
+        - '\Public\'
+        - '\AppData\'
+        - '\Desktop\'
+        - '\Downloads\'
+        - '\Temp\'
+        - '\Tasks\'
+        - '\$Recycle'
+     condition: selection
+falsepositives: Unknown
+level: medium
